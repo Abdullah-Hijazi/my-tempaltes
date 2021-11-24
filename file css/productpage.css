@@ -1,6 +1,6 @@
 /* start desgin product page  */
 .style-h1 {
-  width: 130px;
+  width: fit-content;
   height: 50px;
   text-align: center;
   border: 2px solid #d4be66;
