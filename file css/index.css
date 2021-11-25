@@ -296,9 +296,9 @@ a {
     left: 50%;
     transform: translateX(-50%);
   }
-  /* .Page-Home img {
+  .Page-Home img {
     display: none;
-  } */
+  }
 }
 /* End Desgin Page Home */
 /* Start Media Screen NavBar */
