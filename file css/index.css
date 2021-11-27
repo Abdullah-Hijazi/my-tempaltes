@@ -305,10 +305,12 @@ a {
   .Page-Home h1 {
     width: 100%;
     min-width: 100%;
+    text-align: center;
   }
   .Page-Home p {
     width: 100%;
     min-width: 100%;
+    text-align: center;
   }
   .cv .contanier .con div:first-child {
     min-width: 130px !important;
