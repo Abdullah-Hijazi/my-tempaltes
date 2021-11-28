@@ -244,7 +244,7 @@ a {
   width: 50%;
   min-width: 50%;
   position: absolute;
-  text-align: center;
+  text-align: left;
   font-size: 34px;
   color: #2874a6;
   font-weight: 600;
@@ -256,7 +256,7 @@ a {
   width: 49%;
   min-width: 49%;
   position: absolute;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   color: #2874a6;
   top: 190px;
@@ -270,38 +270,36 @@ a {
   height: 280px;
   z-index: 1;
   border-radius: 20px;
+  display: block;
 }
 @media (max-width: 1000px) {
   .Page-Home h1 {
     width: 50%;
     min-width: 50%;
     position: absolute;
-    text-align: center;
+    text-align: left;
     font-size: 34px;
     color: #2874a6;
     font-weight: 600;
-    left: 50%;
-    transform: translateX(-50%);
   }
   .Page-Home p {
     width: 49%;
     min-width: 49%;
     position: absolute;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     color: #2874a6;
     top: 220px;
     margin: 0px;
-    left: 50%;
-    transform: translateX(-50%);
   }
   .Page-Home img {
-    display: none;
+    width: 350px;
+    height: 220px;
   }
 }
 /* End Desgin Page Home */
 /* Start Media Screen NavBar */
-@media (min-width: 320px) and (max-width: 693px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .about .contanier .formabout h2 {
     position: relative;
     color: #1d8fff;
@@ -350,6 +348,9 @@ a {
     min-width: calc(100% + 55px);
     text-align: center;
   }
+  .Page-Home img {
+    display: none;
+  }
 }
 @media (max-width: 693px) {
   .cv .contanier .con div:first-child {
@@ -389,6 +390,19 @@ a {
 @media (min-width: 576px) and (max-width: 768px) {
   .nav-bar.contanier {
     max-width: 768px;
+  }
+  .Page-Home h1 {
+    width: 100%;
+    min-width: calc(100%);
+    text-align: center;
+  }
+  .Page-Home p {
+    width: 100%;
+    min-width: calc(100%);
+    text-align: center;
+  }
+  .Page-Home img {
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
