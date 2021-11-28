@@ -358,12 +358,12 @@ a {
   .Page-Home h1 {
     width: 100%;
     min-width: calc(100% + 55px);
-    text-align: left;
+    text-align: center;
   }
   .Page-Home p {
     width: 100%;
     min-width: calc(100% + 55px);
-    text-align: left;
+    text-align: center;
   }
   .Page-Home img {
     display: none;
