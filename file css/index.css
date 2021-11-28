@@ -277,7 +277,6 @@ a {
     width: calc(50% + 60px);
     min-width: calc(50% + 60px);
     position: absolute;
-    text-align: left;
     font-size: 34px;
     color: #2874a6;
     font-weight: 600;
@@ -287,7 +286,6 @@ a {
     width: calc(49% + 60px);
     min-width: calc(49% + 60px);
     position: absolute;
-    text-align: left;
     font-size: 20px;
     color: #2874a6;
     top: 220px;
