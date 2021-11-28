@@ -339,7 +339,7 @@ a {
   }
   .cv .contanier .con h2 {
     border: 2px solid black;
-    padding: 4px !important;
+    padding: 4px 2px !important;
     cursor: pointer;
     background-color: #d3af22;
     position: relative;
