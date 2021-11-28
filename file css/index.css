@@ -301,20 +301,61 @@ a {
 }
 /* End Desgin Page Home */
 /* Start Media Screen NavBar */
-@media (max-width: 693px) {
+@media (min-width: 320px) and (max-width: 693px) {
+  .about .contanier .formabout h2 {
+    position: relative;
+    color: #1d8fff;
+    right: 32px !important;
+    top: 6px;
+    margin: 60px 0px !important;
+    max-width: calc(100% + 60px) !important;
+    width: calc(100% + 60px);
+    overflow: hidden;
+    direction: rtl;
+    padding-right: 15px;
+  }
+  .cv .contanier .con {
+    display: flex;
+    position: relative;
+    top: 30px;
+    max-width: 100%;
+    direction: rtl;
+    right: -26px !important;
+  }
+  .cv .contanier .con h2 {
+    border: 2px solid black;
+    padding: 4px !important;
+    cursor: pointer;
+    background-color: #d3af22;
+    position: relative;
+    text-align: center;
+  }
+  .cv .contanier .con div:not(:first-child) {
+    margin-right: 10px !important;
+  }
+  .cv .contanier .con p {
+    position: absolute;
+    min-width: 100%;
+    right: 10px !important;
+    margin-top: 30px;
+    font-size: 25px;
+  }
   .Page-Home h1 {
     width: 100%;
-    min-width: 100%;
+    min-width: calc(100% + 55px);
     text-align: center;
   }
   .Page-Home p {
     width: 100%;
-    min-width: 100%;
+    min-width: calc(100% + 55px);
     text-align: center;
   }
+}
+@media (max-width: 693px) {
   .cv .contanier .con div:first-child {
     min-width: 130px !important;
   }
+
   .hght {
     display: block;
   }
@@ -442,7 +483,7 @@ a {
 .about .contanier .formabout h2::before {
   content: "";
   width: 10px;
-  height: 100vh;
+  height: 100%;
   background-color: #f1c40f;
   position: absolute;
   right: 0px;
@@ -470,6 +511,7 @@ a {
   top: 30px;
   max-width: 100%;
   direction: rtl;
+  right: 20px;
 }
 .cv .contanier .con h2 {
   border: 2px solid black;
@@ -477,7 +519,6 @@ a {
   cursor: pointer;
   background-color: #d3af22;
   position: relative;
-  width: fit-content;
 }
 .cv .contanier .con div:not(:first-child) {
   margin-right: 20px;

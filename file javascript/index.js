@@ -27,13 +27,8 @@ allh2.forEach((div) => {
   div.addEventListener('click',removeallclass);
   div.addEventListener('click',remo);
   div.addEventListener('click',add);
- 
-
-  
 });
-console.log(allh2)
 // remove class active from all element
-
 function removeallclass(){
     allh2.forEach((h2)=> {
         h2.classList.remove("active");
@@ -42,9 +37,7 @@ function removeallclass(){
         
     })   
 }
-
 // remove class act form palegrphe
-
 function remo(){
     allpp.forEach((pp)=>{
         pp.classList.remove('act')
@@ -56,6 +49,4 @@ function add(e){
         e.target.nextElementSibling.classList.add('act')
     })
 }
-
-
 // End programge brunch cv.
