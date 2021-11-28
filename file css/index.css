@@ -301,13 +301,13 @@ a {
 /* Start Media Screen NavBar */
 @media (max-width: 320px) {
   .Page-Home h1 {
-    width: 100%;
-    min-width: calc(100% + 60px);
+    width: calc(100% - 60px);
+    min-width: calc(100% - 60px);
     text-align: center;
   }
   .Page-Home p {
-    width: 100%;
-    min-width: calc(100% + 60px);
+    width: calc(100% - 60px);
+    min-width: calc(100% - 60px);
     text-align: center;
   }
   .Page-Home img {
@@ -354,13 +354,13 @@ a {
     font-size: 25px;
   }
   .Page-Home h1 {
-    width: 100%;
-    min-width: calc(100% + 55px);
+    width: calc(100% - 55px);
+    min-width: calc(100% - 55px);
     text-align: center;
   }
   .Page-Home p {
-    width: 100%;
-    min-width: calc(100% + 55px);
+    width: calc(100% - 55px);
+    min-width: calc(100% - 55px);
     text-align: center;
   }
   .Page-Home img {
