@@ -315,6 +315,13 @@ a {
   .Page-Home img {
     display: none;
   }
+  .cv .contanier .con div:first-child {
+    min-width: 115px !important;
+  }
+  .cv .contanier .con div:first-child h2 {
+    width: fit-content !important;
+    height: fit-content !important;
+  }
 }
 @media (min-width: 320px) and (max-width: 576px) {
   .cv .contanier .con div:first-child {
