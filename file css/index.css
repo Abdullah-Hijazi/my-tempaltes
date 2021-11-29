@@ -347,8 +347,10 @@ a {
   }
   .cv .contanier .con div:not(:first-child) {
     margin-right: 10px !important;
-    width: 150px;
-    height: fit-content;
+  }
+  .cv .contanier .con div:first-child h2 {
+    width: fit-content !important;
+    height: fit-content !important;
   }
   .cv .contanier .con p {
     position: absolute;
@@ -373,7 +375,7 @@ a {
 }
 @media (max-width: 693px) {
   .cv .contanier .con div:first-child {
-    min-width: 130px !important;
+    min-width: 113px !important;
   }
 
   .hght {
