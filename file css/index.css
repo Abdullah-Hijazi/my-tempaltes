@@ -375,7 +375,7 @@ a {
 }
 @media (max-width: 693px) {
   .cv .contanier .con div:first-child {
-    min-width: 113px !important;
+    min-width: 115px !important;
   }
 
   .hght {
