@@ -347,7 +347,8 @@ a {
   }
   .cv .contanier .con div:not(:first-child) {
     margin-right: 10px !important;
-    width: max-content;
+    width: fit-content;
+    height: fit-content;
   }
   .cv .contanier .con p {
     position: absolute;
