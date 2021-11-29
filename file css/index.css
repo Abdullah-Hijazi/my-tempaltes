@@ -317,6 +317,10 @@ a {
   }
 }
 @media (min-width: 320px) and (max-width: 576px) {
+  .cv .contanier .con div:first-child h2 {
+    width: fit-content !important;
+    height: fit-content !important;
+  }
   .about .contanier .formabout h2 {
     position: relative;
     color: #1d8fff;
