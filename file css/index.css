@@ -347,9 +347,10 @@ a {
     display: flex;
     position: relative;
     top: 30px;
-    max-width: 100%;
+    width: calc(100% + 60px) !important;
+    max-width: calc(100% + 60px) !important;
     direction: rtl;
-    right: -26px !important;
+    right: 32px !important;
   }
   .cv .contanier .con h2 {
     border: 2px solid black;
